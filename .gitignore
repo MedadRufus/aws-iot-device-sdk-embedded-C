@@ -20,3 +20,13 @@ external_libs/mbedTLS/*
 
 # Ignore credentials
 certs/*
+
+# ignore coverage files
+gcov/*
+build_output/*
+
+# ignore executable on windows
+IotSdkC_tests.exe
+
+# ignore log of build output
+IotSdkC_tests.txt
